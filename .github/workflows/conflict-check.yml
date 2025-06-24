@@ -1,0 +1,18 @@
+name: Conflict Marker Check
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  check-conflicts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Run conflict marker check
+        run: node scripts/check_conflicts.js
+
