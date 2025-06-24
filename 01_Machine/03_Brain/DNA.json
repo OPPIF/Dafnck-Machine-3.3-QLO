@@ -3,7 +3,6 @@
     "version": "3.1.0",
     "last_updated": "2025-01-06T22:06:00.000Z"
   },
-  
   "workflow_state": {
     "current_step": "P01-S01-T01-User-Profile-Development",
     "current_phase": "phase_1",
@@ -23,34 +22,386 @@
       "project_type": "web_application"
     }
   },
-  
   "agents": {
     "uber-orchestrator-agent": {
       "id": "ORCH-001",
       "name": "Uber Orchestrator Agent",
-      "capabilities": ["workflow_coordination", "state_management", "task_delegation", "progress_tracking"],
+      "capabilities": [
+        "workflow_coordination",
+        "state_management",
+        "task_delegation",
+        "progress_tracking"
+      ],
       "persona": "system_orchestrator",
-      "phases": ["all"],
-      "workflow_steps": ["all"]
+      "phases": [
+        "all"
+      ],
+      "workflow_steps": [
+        "all"
+      ]
     },
     "nlu-processor-agent": {
       "id": "NLU-001",
       "name": "NLU Processor Agent",
-      "capabilities": ["user_profiling", "requirement_extraction", "natural_language_processing"],
+      "capabilities": [
+        "user_profiling",
+        "requirement_extraction",
+        "natural_language_processing"
+      ],
       "persona": "expert_analyst",
-      "phases": ["phase_1"],
-      "workflow_steps": ["P01-S01-T01-User-Profile-Development"]
+      "phases": [
+        "phase_1"
+      ],
+      "workflow_steps": [
+        "P01-S01-T01-User-Profile-Development"
+      ]
     },
     "elicitation-agent": {
       "id": "ELICIT-001",
       "name": "Requirements Elicitation Agent",
-      "capabilities": ["requirement_extraction", "user_interview", "stakeholder_mapping", "requirements_analysis"],
+      "capabilities": [
+        "requirement_extraction",
+        "user_interview",
+        "stakeholder_mapping",
+        "requirements_analysis"
+      ],
       "persona": "expert_business_analyst",
-      "phases": ["phase_1"],
-      "workflow_steps": ["P01-S01-T02-Project-Vision-Elicitation", "P01-S01-T03-Success-Criteria-Definition", "P01-S01-T04-Requirement-Analysis", "P01-S01-T05-Technical-Constraints"]
+      "phases": [
+        "phase_1"
+      ],
+      "workflow_steps": [
+        "P01-S01-T02-Project-Vision-Elicitation",
+        "P01-S01-T03-Success-Criteria-Definition",
+        "P01-S01-T04-Requirement-Analysis",
+        "P01-S01-T05-Technical-Constraints"
+      ]
+    },
+    "adaptive-deployment-strategist-agent": {
+      "id": "ADAPTIVE_DEPLOYMENT_STRATEGIST_AGENT",
+      "name": "🚀 Adaptive Deployment Strategist Agent",
+      "capabilities": []
+    },
+    "algorithmic-problem-solver-agent": {
+      "id": "ALGORITHMIC_PROBLEM_SOLVER_AGENT",
+      "name": "🧠 Algorithmic Problem Solver Agent",
+      "capabilities": []
+    },
+    "analytics-setup-agent": {
+      "id": "ANALYTICS_SETUP_AGENT",
+      "name": "📊 Analytics Setup Agent",
+      "capabilities": []
+    },
+    "brainjs-ml-agent": {
+      "id": "BRAINJS_ML_AGENT",
+      "name": "🧠 Brain.js ML Agent",
+      "capabilities": []
+    },
+    "branding-agent": {
+      "id": "BRANDING_AGENT",
+      "name": "🎭 Branding Agent",
+      "capabilities": []
+    },
+    "campaign-manager-agent": {
+      "id": "CAMPAIGN_MANAGER_AGENT",
+      "name": "📣 Campaign Manager Agent",
+      "capabilities": []
+    },
+    "code-reviewer-agent": {
+      "id": "CODE_REVIEWER_AGENT",
+      "name": "🧐 Code Reviewer Agent",
+      "capabilities": []
+    },
+    "coding-agent": {
+      "id": "CODING_AGENT",
+      "name": "💻 Coding Agent (Feature Implementation)",
+      "capabilities": []
+    },
+    "community-strategy-agent": {
+      "id": "COMMUNITY_STRATEGY_AGENT",
+      "name": "🤝 Community Strategy Agent",
+      "capabilities": []
+    },
+    "compliance-scope-agent": {
+      "id": "COMPLIANCE_SCOPE_AGENT",
+      "name": "📜 Compliance Scope Agent",
+      "capabilities": []
+    },
+    "compliance-testing-agent": {
+      "id": "COMPLIANCE_TESTING_AGENT",
+      "name": "🛡️ Compliance Testing Agent",
+      "capabilities": []
+    },
+    "content-strategy-agent": {
+      "id": "CONTENT_STRATEGY_AGENT",
+      "name": "📝 Content Strategy Agent",
+      "capabilities": []
+    },
+    "core-concept-agent": {
+      "id": "CORE_CONCEPT_AGENT",
+      "name": "🎯 Core Concept Agent",
+      "capabilities": []
+    },
+    "debugger-agent": {
+      "id": "DEBUGGER_AGENT",
+      "name": "🐞 Debugger Agent",
+      "capabilities": []
+    },
+    "deep-research-agent": {
+      "id": "DEEP_RESEARCH_AGENT",
+      "name": "🔍 Deep Research Agent",
+      "capabilities": []
+    },
+    "design-qa-analyst": {
+      "id": "DESIGN_QA_ANALYST",
+      "name": "🔍 Design QA Analyst",
+      "capabilities": []
+    },
+    "design-system-agent": {
+      "id": "DESIGN_SYSTEM_AGENT",
+      "name": "🎨 Design System Agent",
+      "capabilities": []
+    },
+    "development-orchestrator-agent": {
+      "id": "DEVELOPMENT_ORCHESTRATOR_AGENT",
+      "name": "🛠️ Development Orchestrator Agent",
+      "capabilities": []
+    },
+    "devops-agent": {
+      "id": "DEVOPS_AGENT",
+      "name": "⚙️ DevOps Agent",
+      "capabilities": []
+    },
+    "documentation-agent": {
+      "id": "DOCUMENTATION_AGENT",
+      "name": "📄 Documentation Agent",
+      "capabilities": []
+    },
+    "efficiency-optimization-agent": {
+      "id": "EFFICIENCY_OPTIMIZATION_AGENT",
+      "name": "⏱️ Efficiency Optimization Agent",
+      "capabilities": []
+    },
+    "ethical-review-agent": {
+      "id": "ETHICAL_REVIEW_AGENT",
+      "name": "⚖️ Ethical Review Agent",
+      "capabilities": []
+    },
+    "exploratory-tester-agent": {
+      "id": "EXPLORATORY_TESTER_AGENT",
+      "name": "🧭 Exploratory Tester Agent",
+      "capabilities": []
+    },
+    "functional-tester-agent": {
+      "id": "FUNCTIONAL_TESTER_AGENT",
+      "name": "⚙️ Functional Tester Agent",
+      "capabilities": []
+    },
+    "graphic-design-agent": {
+      "id": "GRAPHIC_DESIGN_AGENT",
+      "name": "🎨 Graphic Design Agent",
+      "capabilities": []
+    },
+    "growth-hacking-idea-agent": {
+      "id": "GROWTH_HACKING_IDEA_AGENT",
+      "name": "💡 Growth Hacking Idea Agent",
+      "capabilities": []
+    },
+    "health-monitor-agent": {
+      "id": "HEALTH_MONITOR_AGENT",
+      "name": "🩺 Health Monitor Agent",
+      "capabilities": []
+    },
+    "idea-generation-agent": {
+      "id": "IDEA_GENERATION_AGENT",
+      "name": "💡 Idea Generation Agent",
+      "capabilities": []
+    },
+    "idea-refinement-agent": {
+      "id": "IDEA_REFINEMENT_AGENT",
+      "name": "✨ Idea Refinement Agent",
+      "capabilities": []
+    },
+    "incident-learning-agent": {
+      "id": "INCIDENT_LEARNING_AGENT",
+      "name": "📚 Incident Learning Agent",
+      "capabilities": []
+    },
+    "knowledge-evolution-agent": {
+      "id": "KNOWLEDGE_EVOLUTION_AGENT",
+      "name": "🧠 Knowledge Evolution Agent",
+      "capabilities": []
+    },
+    "lead-testing-agent": {
+      "id": "LEAD_TESTING_AGENT",
+      "name": "🧪 Lead Testing Agent",
+      "capabilities": []
+    },
+    "market-research-agent": {
+      "id": "MARKET_RESEARCH_AGENT",
+      "name": "📈 Market Research Agent",
+      "capabilities": []
+    },
+    "marketing-strategy-orchestrator": {
+      "id": "MARKETING_STRATEGY_ORCHESTRATOR",
+      "name": "📈 Marketing Strategy Orchestrator",
+      "capabilities": []
+    },
+    "mcp-configuration-agent": {
+      "id": "MCP_CONFIGURATION_AGENT",
+      "name": "🔧 MCP Configuration Agent",
+      "capabilities": []
+    },
+    "mcp-researcher-agent": {
+      "id": "MCP_RESEARCHER_AGENT",
+      "name": "🔌 MCP Researcher Agent",
+      "capabilities": []
+    },
+    "performance-load-tester-agent": {
+      "id": "PERFORMANCE_LOAD_TESTER_AGENT",
+      "name": "⏱️ Performance & Load Tester Agent",
+      "capabilities": []
+    },
+    "prd-architect-agent": {
+      "id": "PRD_ARCHITECT_AGENT",
+      "name": "📝 PRD Architect Agent",
+      "capabilities": []
+    },
+    "project-initiator-agent": {
+      "id": "PROJECT_INITIATOR_AGENT",
+      "name": "🚀 Project Initiator Agent",
+      "capabilities": []
+    },
+    "prototyping-agent": {
+      "id": "PROTOTYPING_AGENT",
+      "name": "🕹️ Prototyping Agent",
+      "capabilities": []
+    },
+    "remediation-agent": {
+      "id": "REMEDIATION_AGENT",
+      "name": "🛠️ Remediation Agent",
+      "capabilities": []
+    },
+    "root-cause-analysis-agent": {
+      "id": "ROOT_CAUSE_ANALYSIS_AGENT",
+      "name": "🕵️ Root Cause Analysis Agent",
+      "capabilities": []
+    },
+    "scribe-agent": {
+      "id": "SCRIBE_AGENT",
+      "name": "✍️ Scribe Agent",
+      "capabilities": []
+    },
+    "security-auditor-agent": {
+      "id": "SECURITY_AUDITOR_AGENT",
+      "name": "🛡️ Security Auditor Agent",
+      "capabilities": []
+    },
+    "security-penetration-tester-agent": {
+      "id": "SECURITY_PENETRATION_TESTER_AGENT",
+      "name": "🔐 Security & Penetration Tester Agent",
+      "capabilities": []
+    },
+    "seo-sem-agent": {
+      "id": "SEO_SEM_AGENT",
+      "name": "🔍 SEO/SEM Agent",
+      "capabilities": []
+    },
+    "social-media-setup-agent": {
+      "id": "SOCIAL_MEDIA_SETUP_AGENT",
+      "name": "📱 Social Media Setup Agent",
+      "capabilities": []
+    },
+    "swarm-scaler-agent": {
+      "id": "SWARM_SCALER_AGENT",
+      "name": "🦾 Swarm Scaler Agent",
+      "capabilities": []
+    },
+    "system-architect-agent": {
+      "id": "SYSTEM_ARCHITECT_AGENT",
+      "name": "🏛️ System Architect Agent",
+      "capabilities": []
+    },
+    "task-deep-manager-agent": {
+      "id": "TASK_DEEP_MANAGER_AGENT",
+      "name": "🧠 Task Deep Manager Agent (Full Automation)",
+      "capabilities": []
+    },
+    "task-planning-agent": {
+      "id": "TASK_PLANNING_AGENT",
+      "name": "📅 Task Planning Agent",
+      "capabilities": []
+    },
+    "task-sync-agent": {
+      "id": "TASK_SYNC_AGENT",
+      "name": "🔄 Task Sync Agent",
+      "capabilities": []
+    },
+    "tech-spec-agent": {
+      "id": "TECH_SPEC_AGENT",
+      "name": "⚙️ Technical Specification Agent",
+      "capabilities": []
+    },
+    "technology-advisor-agent": {
+      "id": "TECHNOLOGY_ADVISOR_AGENT",
+      "name": "🛠️ Technology Advisor Agent",
+      "capabilities": []
+    },
+    "test-case-generator-agent": {
+      "id": "TEST_CASE_GENERATOR_AGENT",
+      "name": "📝 Test Case Generator Agent",
+      "capabilities": []
+    },
+    "test-orchestrator-agent": {
+      "id": "TEST_ORCHESTRATOR_AGENT",
+      "name": "🚦 Test Orchestrator Agent",
+      "capabilities": []
+    },
+    "uat-coordinator-agent": {
+      "id": "UAT_COORDINATOR_AGENT",
+      "name": "🤝 UAT Coordinator Agent",
+      "capabilities": []
+    },
+    "ui-designer-agent": {
+      "id": "UI_DESIGNER_AGENT",
+      "name": "🖼️ UI Designer Agent",
+      "capabilities": []
+    },
+    "usability-heuristic-agent": {
+      "id": "USABILITY_HEURISTIC_AGENT",
+      "name": "🧐 Usability & Heuristic Evaluation Agent",
+      "capabilities": []
+    },
+    "user-feedback-collector-agent": {
+      "id": "USER_FEEDBACK_COLLECTOR_AGENT",
+      "name": "🗣️ User Feedback Collector Agent",
+      "capabilities": []
+    },
+    "ux-researcher-agent": {
+      "id": "UX_RESEARCHER_AGENT",
+      "name": "🧐 UX Researcher Agent",
+      "capabilities": []
+    },
+    "video-production-agent": {
+      "id": "VIDEO_PRODUCTION_AGENT",
+      "name": "🎬 Video Production Agent",
+      "capabilities": []
+    },
+    "visual-regression-testing-agent": {
+      "id": "VISUAL_REGRESSION_TESTING_AGENT",
+      "name": "🖼️ Visual Regression Testing Agent",
+      "capabilities": []
+    },
+    "workflow-architect-agent": {
+      "id": "WORKFLOW_ARCHITECT_AGENT",
+      "name": "🗺️ Workflow Architect Agent",
+      "capabilities": []
     }
   },
-  
+  "agentRegistry": [
+    {"agentName": "uber-orchestrator-agent", "phases": ["phase_0","phase_1","phase_2","phase_3","phase_4","phase_5","phase_6"]},
+    {"agentName": "scribe-agent", "phases": ["phase_0","phase_1","phase_2","phase_3","phase_4","phase_5","phase_6"]},
+    {"agentName": "task-sync-agent", "phases": ["phase_0","phase_1","phase_2","phase_3","phase_4","phase_5","phase_6"]}
+  ],
   "workflow_progression": {
     "step_sequence": [
       "P01-S01-T01-User-Profile-Development",
@@ -62,7 +413,6 @@
     "auto_progression": false,
     "require_completion_confirmation": true
   },
-  
   "step_definitions": {
     "P01-S01-T01-User-Profile-Development": {
       "agent": "nlu-processor-agent",
@@ -110,28 +460,44 @@
       "next_task": null
     }
   },
-  
   "tracking_functions": {
     "start_workflow": {
       "description": "Initialize workflow tracking for a new project",
-      "updates": ["workflow_state.session", "workflow_state.current_step", "workflow_state.progress"],
+      "updates": [
+        "workflow_state.session",
+        "workflow_state.current_step",
+        "workflow_state.progress"
+      ],
       "sets_current_step": "P01-S01-T01-User-Profile-Development"
     },
     "complete_step": {
       "description": "Mark current step as complete and move to next",
-      "updates": ["workflow_state.previous_step", "workflow_state.current_step", "workflow_state.next_step", "workflow_state.progress"],
+      "updates": [
+        "workflow_state.previous_step",
+        "workflow_state.current_step",
+        "workflow_state.next_step",
+        "workflow_state.progress"
+      ],
       "auto_progression": false
     },
     "get_current_status": {
       "description": "Get current workflow position and progress",
-      "returns": ["current_step", "previous_step", "next_step", "progress_percentage", "current_agent"]
+      "returns": [
+        "current_step",
+        "previous_step",
+        "next_step",
+        "progress_percentage",
+        "current_agent"
+      ]
     },
     "update_progress": {
       "description": "Update progress within current step",
-      "updates": ["workflow_state.current_task", "workflow_state.progress"]
+      "updates": [
+        "workflow_state.current_task",
+        "workflow_state.progress"
+      ]
     }
   },
-  
   "agent_instructions": {
     "start_command": "When user says 'Let's get started', call start_workflow() and begin with step P01-S01-T01-User-Profile-Development",
     "step_completion": "When step is complete, call complete_step() to move to next step with confirmation",
