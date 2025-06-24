@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const fsp = fs.promises;
 
 // Configuration
 const WORKFLOW_DIR = '01_Machine/01_Workflow';
@@ -36,7 +37,7 @@ function updateFilePaths(content) {
 }
 
 // Main execution
-function main() {
+async function main() {
     console.log('🔧 Starting documentation path correction...');
     console.log(`📁 Scanning directory: ${WORKFLOW_DIR}`);
     console.log(`🔄 Converting: ${OLD_PATH} → ${NEW_PATH}`);
@@ -51,14 +52,14 @@ function main() {
     // Process each file
     for (const filePath of markdownFiles) {
         try {
-            const content = fs.readFileSync(filePath, 'utf8');
+            const content = await fsp.readFile(filePath, 'utf8');
             const updatedContent = updateFilePaths(content);
             
             // Count replacements in this file
             const replacements = (content.match(new RegExp(OLD_PATH.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g')) || []).length;
             
             if (replacements > 0) {
-                fs.writeFileSync(filePath, updatedContent, 'utf8');
+                await fsp.writeFile(filePath, updatedContent, 'utf8');
                 updatedCount++;
                 totalReplacements += replacements;
                 console.log(`✅ Updated ${filePath} (${replacements} replacements)`);
@@ -83,4 +84,7 @@ function main() {
 }
 
 // Execute the script
-main();
+main().catch(err => {
+    console.error(err);
+    process.exit(1);
+});

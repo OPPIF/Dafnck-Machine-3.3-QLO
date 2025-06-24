@@ -2,34 +2,36 @@
 
 const fs = require('fs');
 const path = require('path');
+const fsp = fs.promises;
 
 const AGENTS_DIR = path.join(__dirname, '..', '01_Machine', '02_Agents');
 const DNA_PATH = path.join(__dirname, '..', '01_Machine', '03_Brain', 'DNA.json');
 
-function loadJSON(file) {
+async function loadJSON(file) {
   try {
-    return JSON.parse(fs.readFileSync(file, 'utf8'));
+    const data = await fsp.readFile(file, 'utf8');
+    return JSON.parse(data);
   } catch (err) {
     console.error(`Error reading ${file}:`, err.message);
     return null;
   }
 }
 
-function saveJSON(file, data) {
-  fs.writeFileSync(file, JSON.stringify(data, null, 2));
+async function saveJSON(file, data) {
+  await fsp.writeFile(file, JSON.stringify(data, null, 2));
 }
 
-function syncAgents() {
-  const dna = loadJSON(DNA_PATH);
+async function syncAgents() {
+  const dna = await loadJSON(DNA_PATH);
   if (!dna) return;
 
   if (!dna.agents) dna.agents = {};
 
-  const agentFiles = fs.readdirSync(AGENTS_DIR).filter(f => f.endsWith('.json'));
+  const agentFiles = (await fsp.readdir(AGENTS_DIR)).filter(f => f.endsWith('.json'));
   const additions = [];
 
   for (const file of agentFiles) {
-    const data = loadJSON(path.join(AGENTS_DIR, file));
+    const data = await loadJSON(path.join(AGENTS_DIR, file));
     if (!data) continue;
 
     const mode = (data.customModes && data.customModes[0]) || {};
@@ -47,7 +49,7 @@ function syncAgents() {
   }
 
   if (additions.length) {
-    saveJSON(DNA_PATH, dna);
+    await saveJSON(DNA_PATH, dna);
     console.log(`✅ Added ${additions.length} missing agent${additions.length === 1 ? '' : 's'} to DNA.json: ${additions.join(', ')}`);
   } else {
     console.log('All agents already present in DNA.json');
@@ -55,7 +57,10 @@ function syncAgents() {
 }
 
 if (require.main === module) {
-  syncAgents();
+  syncAgents().catch(err => {
+    console.error(err);
+    process.exit(1);
+  });
 }
 
 module.exports = syncAgents;
