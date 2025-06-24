@@ -302,6 +302,17 @@ This repository uses a GitHub Actions workflow to keep all "Output Artifacts Che
 
 ---
 
+## 🧪 Testing
+
+Run the automated tests from the repository root:
+
+```bash
+npx jest    # JavaScript tests
+pytest      # Python tests
+```
+
+---
+
 ## ⚙️ MCP Server Configuration
 
 DafnckMachine uses MCP servers for advanced agent and workflow integration (Cursor, RooCode, Task Master, etc).
