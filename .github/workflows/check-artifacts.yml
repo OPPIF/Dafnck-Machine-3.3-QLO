@@ -1,0 +1,27 @@
+name: Check Output Artifacts
+
+on:
+  pull_request:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Run checklist auditor
+        run: node update_output_artifacts_checklist.js
+
+      - name: Fail if files changed
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "::error::Output Artifacts checklists need updates. Run 'node update_output_artifacts_checklist.js' and commit the changes." >&2
+            git status --porcelain
+            exit 1
+          fi

@@ -292,6 +292,16 @@ All file updates are performed atomically to avoid JSON corruption.
 
 ---
 
+## ✅ Output Artifacts Audit Workflow
+
+This repository uses a GitHub Actions workflow to keep all "Output Artifacts Checklist" sections in sync.
+
+1. Every pull request triggers `.github/workflows/check-artifacts.yml`.
+2. The workflow runs `node update_output_artifacts_checklist.js` to audit the Markdown files.
+3. If the script modifies any files, the job fails and lists the affected files. Run the script locally and commit the changes to resolve the failure.
+
+---
+
 ## ⚙️ MCP Server Configuration
 
 DafnckMachine uses MCP servers for advanced agent and workflow integration (Cursor, RooCode, Task Master, etc).
