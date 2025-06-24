@@ -17,6 +17,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const fsp = fs.promises;
 
 class OutputArtifactsAuditor {
     constructor() {
@@ -97,7 +98,7 @@ class OutputArtifactsAuditor {
      */
     async analyzeFile(filePath) {
         try {
-            const content = fs.readFileSync(filePath, 'utf8');
+            const content = await fsp.readFile(filePath, 'utf8');
             const lines = content.split('\n');
             
             const analysis = {
@@ -394,7 +395,7 @@ class OutputArtifactsAuditor {
      * Update a single file's checklist
      */
     async updateSingleFile(analysis) {
-        const content = fs.readFileSync(analysis.filePath, 'utf8');
+        const content = await fsp.readFile(analysis.filePath, 'utf8');
         const lines = content.split('\n');
         
         if (analysis.checklistLine === -1) {
@@ -406,7 +407,7 @@ class OutputArtifactsAuditor {
         }
         
         const updatedContent = lines.join('\n');
-        fs.writeFileSync(analysis.filePath, updatedContent, 'utf8');
+        await fsp.writeFile(analysis.filePath, updatedContent, 'utf8');
     }
 
     /**
