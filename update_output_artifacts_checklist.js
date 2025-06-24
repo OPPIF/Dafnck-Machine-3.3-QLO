@@ -75,7 +75,11 @@ class OutputArtifactsAuditor {
                 
                 for (const item of items) {
                     const fullPath = path.join(dir, item);
-                    const stat = fs.statSync(fullPath);
+                    const stat = fs.lstatSync(fullPath);
+
+                    if (stat.isSymbolicLink()) {
+                        continue; // Skip symbolic links
+                    }
                     
                     if (stat.isDirectory()) {
                         scanDirectory(fullPath);
