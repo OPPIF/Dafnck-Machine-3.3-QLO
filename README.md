@@ -251,6 +251,7 @@ All file updates are performed atomically to avoid JSON corruption.
 - **Task Master errors?** — Ensure API keys are set in `.env` or `.cursor/mcp.json`.
 - **Rule evolution** — Add/update rules in `.roo/rules/` as new patterns emerge.
 - **Validate agents** — Use unified agent validator scripts in `01_Machine/03_Brain/Agents-Check/`.
+- **Sync agent registry** — Run `node scripts/sync_agents.js` to add missing agents to `DNA.json`.
 
 ---
 
@@ -264,7 +265,7 @@ All file updates are performed atomically to avoid JSON corruption.
 
 ## 📝 Contributing
 
-- **Add new agents** in `01_Machine/02_Agents/` and update `DNA.json`.
+- **Add new agents** in `01_Machine/02_Agents/` and update `DNA.json` (or run `node scripts/sync_agents.js`).
 - **Document new steps** using `Template-Step-Structure.md`.
 - **Improve rules** in `.roo/rules/` as new best practices emerge.
 - **See**: `01_Machine/04_Documentation/01_System/00_Documentation_Index.md` for step documentation.
