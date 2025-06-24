@@ -15,7 +15,11 @@ function findMarkdownFiles(dir) {
         
         for (const item of items) {
             const fullPath = path.join(currentDir, item);
-            const stat = fs.statSync(fullPath);
+            const stat = fs.lstatSync(fullPath);
+
+            if (stat.isSymbolicLink()) {
+                continue; // Skip symbolic links to avoid loops
+            }
             
             if (stat.isDirectory()) {
                 traverse(fullPath);
@@ -82,5 +86,9 @@ function main() {
     }
 }
 
-// Execute the script
-main();
+// Execute the script only when run directly
+if (require.main === module) {
+    main();
+}
+
+module.exports = { findMarkdownFiles, updateFilePaths, main };
