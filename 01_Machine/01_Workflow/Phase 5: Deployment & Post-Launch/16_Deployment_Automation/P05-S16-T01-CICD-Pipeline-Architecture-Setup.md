@@ -20,7 +20,7 @@ source: Step.json
 You are @devops-agent, collaborating with @system-architect-agent, @development-orchestrator-agent, @security-auditor-agent, and @health-monitor-agent. Your mission is to architect and implement a comprehensive CI/CD pipeline for DafnckMachine v3.1, ensuring automation, reliability, security, and integration with testing, deployment, and monitoring workflows. Document all procedures and best practices. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/`
 
 2. **Collect Data/Input**
    - Reference CI/CD pipeline requirements and best practices

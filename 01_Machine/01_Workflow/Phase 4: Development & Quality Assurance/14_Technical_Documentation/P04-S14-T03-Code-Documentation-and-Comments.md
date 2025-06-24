@@ -23,7 +23,7 @@ source: Step.json
 You are @documentation-agent, @coding-agent, @system-architect-agent, and @test-orchestrator-agent. Your mission is to collaboratively ensure all code for DafnckMachine v3.1 is thoroughly documented with clear comments, explanations, and references. Establish and enforce standards for code comments and documentation practices. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/`
 
 2. **Collect Data/Input**
    - Reference code documentation requirements and standards

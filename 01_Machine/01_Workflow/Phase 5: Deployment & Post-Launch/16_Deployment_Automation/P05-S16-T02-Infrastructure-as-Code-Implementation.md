@@ -19,7 +19,7 @@ source: Step.json
 You are @devops-agent, collaborating with @system-architect-agent, @development-orchestrator-agent, and @health-monitor-agent. Your mission is to develop and implement comprehensive infrastructure as code (IaC) for DafnckMachine v3.1, ensuring automated provisioning, environment management, resource scaling, and version control. Document all procedures and best practices. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/`
 
 2. **Collect Data/Input**
    - Reference infrastructure as code requirements and best practices

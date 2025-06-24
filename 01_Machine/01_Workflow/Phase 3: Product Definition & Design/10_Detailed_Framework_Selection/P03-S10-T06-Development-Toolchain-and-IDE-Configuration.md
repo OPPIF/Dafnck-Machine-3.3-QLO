@@ -20,7 +20,7 @@ orchestrator: "@uber-orchestrator-agent"
 @development-orchestrator-agent (lead), with support from @system-architect-agent, @performance-optimization-agent, @technology-advisor-agent, and @security-auditor-agent: Select and configure the development toolchain, IDEs, build tools, and package management for DafnckMachine v3.1. Document all findings, configurations, and selection decisions with clear rationale and evidence. Output all specifications, configuration guides, and strategies to the required files. Communicate blockers or gaps in requirements immediately.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/`
 
 2. **Collect Data/Input**
    - Gather team requirements, workflow needs, and environment constraints from previous steps and team input.

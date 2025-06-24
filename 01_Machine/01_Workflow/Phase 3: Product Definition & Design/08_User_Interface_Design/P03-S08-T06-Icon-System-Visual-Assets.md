@@ -16,7 +16,7 @@ orchestrator: "@uber-orchestrator-agent"
 You are @ui-designer-agent and @graphic-design-agent. Collaborate to develop a consistent icon system and prepare all visual assets for production for DafnckMachine v3.1, ensuring accessibility, scalability, and optimal performance. Coordinate with @uber-orchestrator-agent as needed.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/`
 
 2. **Collect Data/Input**
    - Gather all icon requirements, asset lists, and optimization needs.

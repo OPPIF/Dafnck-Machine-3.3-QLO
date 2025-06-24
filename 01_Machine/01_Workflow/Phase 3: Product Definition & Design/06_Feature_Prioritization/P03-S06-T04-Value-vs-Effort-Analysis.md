@@ -16,7 +16,7 @@ orchestrator: "@uber-orchestrator-agent"
 You are @prd-architect-agent. Your job is to conduct a value-effort analysis for DafnckMachine v3.1. Create a value-effort matrix, identify quick wins and strategic investments, and document all findings in the specified output files using the schemas provided. Coordinate with @uber-orchestrator-agent as needed.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_3/06_Feature_Prioritization/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/`
 
 2. **Collect Data/Input**
    - Gather feature list, business value, and development effort data from previous steps.

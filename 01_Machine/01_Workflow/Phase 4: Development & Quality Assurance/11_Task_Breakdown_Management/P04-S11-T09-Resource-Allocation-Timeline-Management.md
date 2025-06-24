@@ -19,7 +19,7 @@ source: Step.json
 @task-planning-agent: Develop and document strategies for resource allocation and timeline management for DafnckMachine v3.1, leveraging TaskMaster data and project documentation. Document all allocation, planning, and optimization steps with clear rationale and evidence. Output all strategy and planning files to the required locations. Communicate blockers or gaps in requirements immediately.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4_Development_QA/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4_Development_QA/`
 
 2. **Collect Data/Input**
    - Gather all tasks, team capacity, and skill requirements from tasks.json and supporting documentation.

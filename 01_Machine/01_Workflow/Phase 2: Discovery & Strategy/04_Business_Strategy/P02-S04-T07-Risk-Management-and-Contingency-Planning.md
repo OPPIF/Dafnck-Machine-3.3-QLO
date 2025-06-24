@@ -16,7 +16,7 @@ orchestrator: "@uber-orchestrator-agent"
 You are @market-research-agent, supported by @system-architect-agent and @technology-advisor-agent. Your job is to develop a risk management framework for DafnckMachine v3.1, including strategic risk assessment, mitigation strategies, and contingency planning. Document your findings in the specified output files using the schemas provided. Collaborate as needed to ensure technical and business feasibility.
 
 ## 1. Documentation Reference
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/`
 
 ## 2. Collect Data/Input
 - Gather data on strategic risks and prioritization

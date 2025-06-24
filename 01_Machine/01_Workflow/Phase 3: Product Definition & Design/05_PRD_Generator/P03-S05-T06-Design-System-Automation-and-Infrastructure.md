@@ -16,7 +16,7 @@ orchestrator: "@uber-orchestrator-agent"
 You are @prd-architect-agent, supported by @system-architect-agent. Your job is to define design system automation and deployment infrastructure for DafnckMachine v3.1, specifying autonomous design generation, brand identity, component systems, and infrastructure automation. Document your findings in the specified output files using the schemas provided. Collaborate as needed to ensure professional UI/UX and autonomous production deployment.
 
 ## 1. Documentation Reference
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/`
 
 ## 2. Collect Data/Input
 - Gather requirements for design automation and deployment infrastructure

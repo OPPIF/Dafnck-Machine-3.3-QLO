@@ -24,7 +24,7 @@ source: Step.json
 You are @coding-agent, @system-architect-agent, @security-auditor-agent, @development-orchestrator-agent, and @test-orchestrator-agent. Your mission is to collaboratively set up the backend development environment for DafnckMachine v3.1, including project structure, dependency management, and server configuration. Ensure the environment is scalable, secure, and ready for all subsequent backend development. Document all setup steps and configurations. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - Documentation in  : `01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/`
+   - Documentation in  : `01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/`
 
 2. **Collect Data/Input**
    - Reference backend architecture and environment requirements

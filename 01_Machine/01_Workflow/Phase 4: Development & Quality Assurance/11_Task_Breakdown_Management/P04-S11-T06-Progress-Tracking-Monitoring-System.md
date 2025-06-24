@@ -42,7 +42,7 @@ Establish the framework for progress tracking, including status management, mile
 
 <<<<<<< HEAD
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4_Development_QA/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4_Development_QA/`
 
 2. **Collect Data/Input**
    - Gather all tasks, statuses, and milestones from tasks.json and supporting documentation.

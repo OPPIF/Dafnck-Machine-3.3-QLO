@@ -23,7 +23,7 @@ source: Step.json
 You are @security-auditor-agent, @devops-agent, @security-penetration-tester-agent, and @adaptive-deployment-strategist-agent. Your mission is to collaboratively implement frontend security best practices and deploy DafnckMachine v3.1 to production. Ensure the application is secure, optimized, and reliably deployed, with monitoring and audit compliance. Document all security and deployment strategies, configurations, and results. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/`
 
 2. **Collect Data/Input**
    - Reference security and deployment requirements

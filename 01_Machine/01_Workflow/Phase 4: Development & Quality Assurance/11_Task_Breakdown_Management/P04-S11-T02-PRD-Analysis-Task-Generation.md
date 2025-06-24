@@ -19,7 +19,7 @@ source: Step.json
 @prd-architect-agent (lead), with support from @task-planning-agent: Synthesize all relevant documentation into a comprehensive PRD, then use TaskMaster to generate an actionable, prioritized task list for DafnckMachine v3.1. Document all analysis, extraction, and task structure with clear rationale and evidence. Output all reports, PRD, and task structure files to the required locations. Communicate blockers or gaps in requirements immediately.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4_Development_QA/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4_Development_QA/`
 
 2. **Collect Data/Input**
    - Gather all requirements, features, and priorities from PRD and supporting documentation (especially Phase 0-3 folders).

@@ -20,7 +20,7 @@ orchestrator: "@uber-orchestrator-agent"
 @technology-advisor-agent (lead), with support from @system-architect-agent, @performance-optimization-agent, @development-orchestrator-agent, and @security-auditor-agent: Develop an implementation roadmap and prepare documentation and training materials for the development team for DafnckMachine v3.1. Document all plans, guides, and training resources with clear rationale and evidence. Output all roadmaps, adoption plans, documentation packages, and training materials to the required files. Communicate blockers or gaps in requirements immediately.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/`
 
 2. **Collect Data/Input**
    - Gather implementation requirements, migration strategies, and resource needs from previous steps and team input.

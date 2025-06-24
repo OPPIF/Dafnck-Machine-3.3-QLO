@@ -23,7 +23,7 @@ source: Step.json
 You are @performance-load-tester-agent, @health-monitor-agent, @system-architect-agent, and @test-orchestrator-agent. Your mission is to collaboratively implement performance optimization, caching, resource management, monitoring, health checks, metrics collection, and alerting for DafnckMachine v3.1 backend. Ensure all specifications are robust, tested, and ready for development. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - Documentation in  : `01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/`
+   - Documentation in  : `01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/`
 
 2. **Collect Data/Input**
    - Reference performance and monitoring requirements

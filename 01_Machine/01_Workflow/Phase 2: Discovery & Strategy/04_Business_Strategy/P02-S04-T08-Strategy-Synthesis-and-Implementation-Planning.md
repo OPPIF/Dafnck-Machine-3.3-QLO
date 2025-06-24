@@ -16,7 +16,7 @@ orchestrator: "@uber-orchestrator-agent"
 You are @market-research-agent, supported by @system-architect-agent and @technology-advisor-agent. Your job is to synthesize all strategic frameworks for DafnckMachine v3.1, ensuring alignment and readiness for implementation. Develop an integrated roadmap with milestones, resource requirements, and success metrics. Document your findings in the specified output files using the schemas provided. Collaborate as needed to ensure technical and business feasibility.
 
 ## 1. Documentation Reference
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/`
 
 ## 2. Collect Data/Input
 - Gather all strategic framework outputs for integration

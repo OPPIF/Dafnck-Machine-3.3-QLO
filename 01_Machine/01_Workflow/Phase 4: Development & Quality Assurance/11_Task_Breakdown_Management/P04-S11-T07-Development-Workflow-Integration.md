@@ -20,7 +20,7 @@ agent: "@development-orchestrator-agent"
 @development-orchestrator-agent: Integrate TaskMaster with development tools and establish robust team collaboration protocols for DafnckMachine v3.1. Document all integration steps, collaboration frameworks, and guidelines with clear rationale and evidence. Output all integration and collaboration files to the required locations. Communicate blockers or gaps in requirements immediately.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4_Development_QA/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4_Development_QA/`
 
 2. **Collect Data/Input**
    - Gather requirements for tool integration and team collaboration from previous steps and team input.

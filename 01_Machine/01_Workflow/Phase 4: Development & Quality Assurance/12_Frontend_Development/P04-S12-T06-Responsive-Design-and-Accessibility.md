@@ -23,7 +23,7 @@ source: Step.json
 You are @coding-agent, @design-system-agent, @ux-researcher-agent, and @usability-heuristic-agent. Your mission is to collaboratively implement fully responsive design and accessibility for DafnckMachine v3.1. Ensure the frontend adapts to all devices and meets accessibility standards (WCAG, ARIA, keyboard navigation). Document all specifications and implementation details. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/`
 
 2. **Collect Data/Input**
    - Reference design system and accessibility requirements

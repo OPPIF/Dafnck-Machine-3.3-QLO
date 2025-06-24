@@ -23,7 +23,7 @@ source: Step.json
 You are @documentation-agent, @devops-agent, @system-architect-agent, and @test-orchestrator-agent. Your mission is to collaboratively create comprehensive deployment and configuration documentation for DafnckMachine v3.1. Ensure all deployment steps, configuration options, environment variables, and operational procedures are clearly documented and accessible. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/`
 
 2. **Collect Data/Input**
    - Reference deployment and configuration requirements

@@ -22,7 +22,7 @@ source: Step.json
 You are @coding-agent, @ui-designer-agent, and @development-orchestrator-agent. Your mission is to collaboratively implement all core application pages and configure robust routing for DafnckMachine v3.1. Ensure seamless navigation, modular page structure, and alignment with the frontend architecture. Document all specifications and implementation details. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/`
 
 2. **Collect Data/Input**
    - Reference design system and navigation requirements
