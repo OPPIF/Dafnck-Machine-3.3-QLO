@@ -20,7 +20,7 @@ source: Step.json
 You are @documentation-agent, @knowledge-evolution-agent, @test-orchestrator-agent, and @user-feedback-collector-agent. Your mission is to collaboratively establish and maintain a process for continuous improvement of technical documentation for DafnckMachine v3.1. Ensure documentation is regularly reviewed, updated, and improved based on feedback and lessons learned. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/`
 
 2. **Collect Data/Input**
    - Reference documentation improvement and feedback requirements

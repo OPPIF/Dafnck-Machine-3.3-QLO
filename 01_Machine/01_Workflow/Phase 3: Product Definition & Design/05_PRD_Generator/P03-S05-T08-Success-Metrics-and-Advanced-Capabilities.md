@@ -16,7 +16,7 @@ orchestrator: "@uber-orchestrator-agent"
 You are @prd-architect-agent. Your job is to define success metrics and advanced capabilities for DafnckMachine v3.1, specifying how to measure development efficiency, business impact, and advanced system features. Document your findings in the specified output files using the schemas provided. Collaborate as needed to ensure all metrics and capabilities are actionable and measurable.
 
 ## 1. Documentation Reference
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/`
 
 ## 2. Collect Data/Input
 - Gather requirements for success metrics and advanced capabilities

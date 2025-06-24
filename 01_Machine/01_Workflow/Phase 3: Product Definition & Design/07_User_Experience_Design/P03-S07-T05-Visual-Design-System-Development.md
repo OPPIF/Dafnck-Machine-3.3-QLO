@@ -16,7 +16,7 @@ orchestrator: "@uber-orchestrator-agent"
 You are @branding-agent and @design-system-agent. Collaborate to develop a visual design system for DafnckMachine v3.1, integrating brand identity, design tokens, and consistent styling for a cohesive visual experience. Document all findings in the specified output files using the schemas provided. Coordinate with @uber-orchestrator-agent as needed.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/`
 
 2. **Collect Data/Input**
    - Gather brand guidelines, visual identity assets, and design system requirements from previous steps.

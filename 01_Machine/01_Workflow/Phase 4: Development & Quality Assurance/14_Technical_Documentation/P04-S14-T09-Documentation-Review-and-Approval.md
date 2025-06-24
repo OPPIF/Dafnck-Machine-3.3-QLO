@@ -23,7 +23,7 @@ source: Step.json
 You are @documentation-agent, @test-orchestrator-agent, @system-architect-agent, and @development-orchestrator-agent. Your mission is to collaboratively review and approve all technical documentation for DafnckMachine v3.1. Ensure all documentation meets quality, accuracy, and completeness standards before deployment. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/`
 
 2. **Collect Data/Input**
    - Reference documentation review and approval requirements

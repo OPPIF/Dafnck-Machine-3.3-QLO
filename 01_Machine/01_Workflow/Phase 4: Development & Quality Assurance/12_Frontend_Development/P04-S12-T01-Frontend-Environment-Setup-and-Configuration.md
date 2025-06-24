@@ -19,7 +19,7 @@ source: Step.json
 @coding-agent (lead), with support from @ui-designer-agent, @development-orchestrator-agent, @test-orchestrator-agent, and @performance-optimization-agent: Initialize and configure a modern, maintainable, and scalable frontend development environment for DafnckMachine v3.1. Document all setup, configuration, and verification steps with clear rationale and evidence. Output all environment and configuration files to the required locations. Communicate blockers or gaps in requirements immediately.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/`
 
 2. **Collect Data/Input**
    - Gather requirements for frontend environment, dependencies, and build configuration from previous steps and team input.

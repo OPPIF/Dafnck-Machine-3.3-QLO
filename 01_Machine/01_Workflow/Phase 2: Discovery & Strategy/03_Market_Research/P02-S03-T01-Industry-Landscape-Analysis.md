@@ -16,7 +16,7 @@ orchestrator: "@uber-orchestrator-agent"
 You are @market-research-agent, supported by @deep-research-agent, @idea-generation-agent, @technology-advisor-agent, and @system-architect-agent. Your job is to conduct a comprehensive industry landscape analysis for DafnckMachine v3.1. Systematically analyze industry structure, market dynamics, and competitive landscape. Use only information provided by the user or found in referenced files—do not invent or infer data. Document all findings in the output files below. After saving, update Step.json and DNA.json to mark this task as SUCCEEDED and set the next task to P02-S03-T02. Do not proceed until all required fields are present and saved.
 
 ## 1. Documentation Reference
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_2/03_Market_Research/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_2/03_Market_Research/`
 
 ## 2. Collect Data/Input
 - Industry structure, market segments, value chain, consolidation trends, maturity assessment

@@ -23,7 +23,7 @@ source: Step.json
 You are @documentation-agent, @system-architect-agent, @development-orchestrator-agent, and @test-orchestrator-agent. Your mission is to collaboratively implement a knowledge management system (KMS) for DafnckMachine v3.1. Ensure all project knowledge and documentation is organized, accessible, and maintained. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/`
 
 2. **Collect Data/Input**
    - Reference KMS requirements and project documentation needs

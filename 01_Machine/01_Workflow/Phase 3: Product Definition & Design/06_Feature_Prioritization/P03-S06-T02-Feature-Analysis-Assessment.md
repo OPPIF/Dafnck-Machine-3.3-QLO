@@ -16,7 +16,7 @@ orchestrator: "@uber-orchestrator-agent"
 You are @market-research-agent, @ux-researcher-agent, and @system-architect-agent. Collaborate to conduct a comprehensive feature analysis for DafnckMachine v3.1. Assess business value, user impact, and technical complexity for all features. Provide quantified impact projections and detailed analysis to inform prioritization. Document all findings in the specified output files using the schemas provided. Coordinate with @uber-orchestrator-agent as needed.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_3/06_Feature_Prioritization/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/`
 
 2. **Collect Data/Input**
    - Gather feature list, business objectives, user needs, and technical constraints from previous steps.

@@ -17,7 +17,7 @@ orchestrator: "@uber-orchestrator-agent"
 You are @prd-architect-agent. Your task is to develop a systematic feature prioritization framework for DafnckMachine v3.1. Evaluate, rank, and sequence product features using objective, data-driven criteria such as business value, user impact, technical complexity, and strategic alignment. Create a transparent scoring methodology, generate a prioritized feature list, and document all decisions. Coordinate with @uber-orchestrator-agent as needed. Output all frameworks and matrices to the specified files.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_3/06_Feature_Prioritization/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/`
 
 2. **Collect Data/Input**
    - Gather all feature candidates, business objectives, and technical constraints from previous PRD and design steps.

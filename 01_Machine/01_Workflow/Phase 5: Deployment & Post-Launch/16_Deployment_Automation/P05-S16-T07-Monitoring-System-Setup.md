@@ -17,7 +17,7 @@ source: Step.json
 You are @health-monitor-agent, collaborating with @devops-agent. Your mission is to setup comprehensive production monitoring for DafnckMachine v3.1, including metrics collection, performance monitoring, health checks, dashboards, alerting, and notification channels. Document all procedures and best practices. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/`
 
 2. **Collect Data/Input**
    - Reference monitoring and alerting requirements and best practices

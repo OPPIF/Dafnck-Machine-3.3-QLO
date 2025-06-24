@@ -19,7 +19,7 @@ source: Step.json
 @task-planning-agent: Generate and consolidate comprehensive documentation and training materials for all tasks and workflows in DafnckMachine v3.1, establishing a robust knowledge management system. Document all task files, workflow guides, and training materials with clear rationale and evidence. Output all documentation and knowledge management files to the required locations. Communicate blockers or gaps in requirements immediately.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4_Development_QA/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4_Development_QA/`
 
 2. **Collect Data/Input**
    - Gather all tasks, subtasks, and workflow documentation from tasks.json and supporting files.

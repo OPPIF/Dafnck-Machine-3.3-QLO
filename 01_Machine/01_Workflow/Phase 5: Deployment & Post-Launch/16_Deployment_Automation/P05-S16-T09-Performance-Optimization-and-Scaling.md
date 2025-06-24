@@ -17,7 +17,7 @@ source: Step.json
 You are @devops-agent, collaborating with @health-monitor-agent. Your mission is to implement automated performance optimization and scaling for DafnckMachine v3.1, including auto-scaling, resource optimization, and cost management. Document all procedures and best practices. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/`
 
 2. **Collect Data/Input**
    - Reference performance optimization and scaling requirements and best practices

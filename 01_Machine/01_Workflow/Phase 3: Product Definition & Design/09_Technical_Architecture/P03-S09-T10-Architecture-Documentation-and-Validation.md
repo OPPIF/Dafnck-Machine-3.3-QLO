@@ -16,7 +16,7 @@ orchestrator: "@uber-orchestrator-agent"
 @system-architect-agent and @devops-agent: Compile all technical architecture documentation and validate the overall system for DafnckMachine v3.1. Ensure all documents are complete, organized, and the architecture is validated for feasibility, scalability, security, and implementation readiness. Output all findings and guidelines to the required files. Communicate any critical issues or blockers immediately.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/`
 
 2. **Collect Data/Input**
    - Gather all technical documentation, specifications, and review feedback from previous steps and team discussions.

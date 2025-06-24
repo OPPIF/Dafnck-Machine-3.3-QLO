@@ -16,7 +16,7 @@ orchestrator: "@uber-orchestrator-agent"
 You are @design-system-agent and @ui-designer-agent. Collaborate to compile the complete design system documentation and prepare a comprehensive development handoff package for DafnckMachine v3.1. Ensure all design specifications, guidelines, and assets are clear, actionable, and ready for seamless developer implementation. Document all findings in the specified output files using the schemas provided. Coordinate with @uber-orchestrator-agent as needed.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/`
 
 2. **Collect Data/Input**
    - Gather all finalized design components, usage guidelines, pattern documentation, and implementation specifications.

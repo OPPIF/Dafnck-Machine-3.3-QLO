@@ -23,7 +23,7 @@ source: Step.json
 You are @system-architect-agent, @ui-designer-agent, @documentation-agent, and @development-orchestrator-agent. Your mission is to collaboratively create comprehensive visual documentation and diagrams for DafnckMachine v3.1. Ensure all system diagrams, UI documentation, and visual aids are clear, professional, and enhance understanding. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/`
 
 2. **Collect Data/Input**
    - Reference visual documentation and diagram requirements

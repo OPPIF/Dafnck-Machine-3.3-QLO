@@ -20,7 +20,7 @@ orchestrator: "@uber-orchestrator-agent"
 @project-initiator-agent (lead), with support from @task-planning-agent: Initialize TaskMaster for DafnckMachine v3.1, ensuring all required files, directories, and configuration are in place for robust task management and workflow orchestration. Document all setup steps, configuration, and environment settings with clear rationale and evidence. Output all guides and configuration files to the required locations. Communicate blockers or gaps in requirements immediately.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4_Development_QA/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4_Development_QA/`
 
 2. **Collect Data/Input**
    - Gather project requirements, workflow needs, and environment constraints from previous phases and team input.
