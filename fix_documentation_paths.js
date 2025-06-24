@@ -82,5 +82,13 @@ function main() {
     }
 }
 
-// Execute the script
-main();
+// Execute the script only when run directly
+if (require.main === module) {
+    main();
+}
+
+module.exports = {
+    updateFilePaths,
+    findMarkdownFiles,
+    main
+};
