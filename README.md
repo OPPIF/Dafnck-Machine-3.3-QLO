@@ -173,6 +173,22 @@ DafnckMachine uses Task Master for all task, subtask, and workflow management.
 
 ---
 
+## 🔄 Workflow Status CLI
+
+Use `workflow_status.py` to inspect the current workflow position or move to the
+next step defined in `DNA.json`.
+
+### Commands
+
+- `python workflow_status.py status` – display the current step, responsible
+  agent and upcoming actions from `Step.json`.
+- `python workflow_status.py advance` – mark the current step complete and
+  update both `Step.json` and `DNA.json` to the next step in the sequence.
+
+All file updates are performed atomically to avoid JSON corruption.
+
+---
+
 ## 🧠 Agent System & Collaboration
 
 - **67+ specialized agents** for every phase of the SDLC.
