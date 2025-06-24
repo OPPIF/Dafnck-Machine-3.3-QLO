@@ -20,7 +20,7 @@ orchestrator: "@uber-orchestrator-agent"
 @system-architect-agent (integration analysis, lead) and @technology-advisor-agent (PoC development), with support from @performance-optimization-agent, @development-orchestrator-agent, and @security-auditor-agent: Assess framework integration compatibility and validate selections through proof-of-concept development for DafnckMachine v3.1. Document all findings, validations, and decisions with clear rationale and evidence. Output all reports, analysis, and validation results to the required files. Communicate blockers or gaps in requirements immediately.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/`
 
 2. **Collect Data/Input**
    - Gather integration requirements, dependency information, and version constraints from previous steps and team input.

@@ -21,7 +21,7 @@ You are @technology-advisor-agent and @system-architect-agent. Your jobs are:
 - Do not proceed to the next task until all required fields are present and saved.
 
 ## 1. Documentation Reference
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/`
 
 ## 2. Collect Data/Input
 - Technology requirements, technical specifications, available frameworks, development tools

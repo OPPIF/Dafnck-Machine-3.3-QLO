@@ -20,7 +20,7 @@ orchestrator: "@uber-orchestrator-agent"
 @task-planning-agent: Expand high-priority and all remaining tasks into detailed subtasks for DafnckMachine v3.1, referencing relevant technical and design documentation. Document all breakdowns, specifications, and subtask structures with clear rationale and evidence. Output all breakdowns and subtask files to the required locations. Communicate blockers or gaps in requirements immediately.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4_Development_QA/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4_Development_QA/`
 
 2. **Collect Data/Input**
    - Gather high-priority and remaining tasks from tasks.json and supporting documentation.

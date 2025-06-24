@@ -16,7 +16,7 @@ orchestrator: "@uber-orchestrator-agent"
 You are @system-architect-agent and @market-research-agent, supported by @technology-advisor-agent and @marketing-strategy-orchestrator. Your job is to develop a growth strategy for DafnckMachine v3.1, including a scalability framework, market expansion plan, and resource scaling models. Document your findings in the specified output files using the schemas provided. Collaborate as needed to ensure technical and market feasibility.
 
 ## 1. Documentation Reference
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/`
 
 ## 2. Collect Data/Input
 - Gather data on business, technical, and operational scalability

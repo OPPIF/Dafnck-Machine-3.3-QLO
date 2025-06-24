@@ -20,7 +20,7 @@ orchestrator: "@uber-orchestrator-agent"
 @task-planning-agent: Validate, map, and optimize all task dependencies for DafnckMachine v3.1, ensuring a logical and efficient workflow. Document all analysis, mapping, and optimization steps with clear rationale and evidence. Output all reports, diagrams, and plans to the required locations. Communicate blockers or gaps in requirements immediately.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4_Development_QA/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4_Development_QA/`
 
 2. **Collect Data/Input**
    - Gather all tasks and dependencies from tasks.json and supporting documentation.

@@ -19,7 +19,7 @@ source: Step.json
 @test-orchestrator-agent: Integrate QA processes and testing workflows with TaskMaster for DafnckMachine v3.1, and establish quality gates and validation frameworks. Document all integration steps, quality gates, and validation procedures with clear rationale and evidence. Output all QA and quality gate files to the required locations. Communicate blockers or gaps in requirements immediately.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4_Development_QA/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4_Development_QA/`
 
 2. **Collect Data/Input**
    - Gather requirements for QA integration and quality gates from previous steps and team input.

@@ -16,7 +16,7 @@ orchestrator: "@uber-orchestrator-agent"
 You are @prd-architect-agent, supported by @system-architect-agent. Your job is to define the project initialization and analysis protocol for DafnckMachine v3.1, specifying a universal project specification framework and automated analysis capabilities. Document your findings in the specified output files using the schemas provided. Collaborate as needed to ensure comprehensive requirement capture and informed autonomous decisions.
 
 ## 1. Documentation Reference
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/`
 
 ## 2. Collect Data/Input
 - Gather requirements for project specification and analysis

@@ -21,7 +21,7 @@ You are @elicitation-agent. Your job is to:
 - Do not proceed to the next task until all required fields are present and saved.
 
 ## 1. Documentation Reference
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_1/
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_1/
    
 ## 2. Collect Data/Input
 - Gather: core features, user workflows, system capabilities, integration needs, performance expectations.

@@ -16,7 +16,7 @@ orchestrator: "@uber-orchestrator-agent"
 You are @market-research-agent, supported by @technology-advisor-agent, @system-architect-agent, and @marketing-strategy-orchestrator. Your job is to design a comprehensive revenue strategy for DafnckMachine v3.1, including monetization frameworks, pricing models, and financial projections. Validate all strategies against market benchmarks. Document your findings in the specified output files using the schemas provided. Collaborate as needed to ensure technical and market feasibility.
 
 ## 1. Documentation Reference
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/`
 
 ## 2. Collect Data/Input
 - Gather market benchmark data for monetization and pricing

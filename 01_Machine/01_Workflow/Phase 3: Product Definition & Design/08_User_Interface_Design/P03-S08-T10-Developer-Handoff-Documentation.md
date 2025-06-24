@@ -16,7 +16,7 @@ orchestrator: "@uber-orchestrator-agent"
 You are @documentation-agent. Your mission is to prepare a complete developer handoff package and finalize the UI Design System documentation for DafnckMachine v3.1, ensuring all technical specifications, guidelines, and maintenance procedures are clear and comprehensive. Coordinate with @uber-orchestrator-agent as needed.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/`
 
 2. **Collect Data/Input**
    - Gather all technical specifications, coding guidelines, asset delivery instructions, and maintenance requirements.

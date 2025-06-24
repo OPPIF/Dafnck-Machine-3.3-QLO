@@ -16,7 +16,7 @@ orchestrator: "@uber-orchestrator-agent"
 @devops-agent and @system-architect-agent: Collaborate to design and document the CI/CD pipeline, deployment automation, and environment management strategy for DafnckMachine v3.1. Ensure all DevOps practices are secure, efficient, and reproducible. Output all plans and specifications to the required documentation files. Communicate any blockers or architectural concerns immediately.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/`
 
 2. **Collect Data/Input**
    - Gather requirements for CI/CD, deployment, and environment management from previous technical architecture steps and team discussions.

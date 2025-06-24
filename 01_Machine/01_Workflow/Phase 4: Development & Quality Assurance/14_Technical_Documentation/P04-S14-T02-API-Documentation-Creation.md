@@ -23,7 +23,7 @@ source: Step.json
 You are @documentation-agent, @backend-developer-agent, @system-architect-agent, and @test-orchestrator-agent. Your mission is to collaboratively create and maintain comprehensive API documentation for DafnckMachine v3.1. Ensure all endpoints, parameters, responses, authentication, and usage examples are clearly described and accessible. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/`
 
 2. **Collect Data/Input**
    - Reference API specifications and integration requirements

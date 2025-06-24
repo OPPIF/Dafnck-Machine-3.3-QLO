@@ -24,7 +24,7 @@ You are @nlu-processor-agent. Your job is to:
 # User Profile Development — Minimal Agent Instructions
 
 ## Documentation Reference
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_1/
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_1/
 
 ## 1. Collect User Data
 Ask the user and record answers (as arrays of strings) for:

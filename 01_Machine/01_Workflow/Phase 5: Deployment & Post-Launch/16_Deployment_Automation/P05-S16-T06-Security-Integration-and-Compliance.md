@@ -18,7 +18,7 @@ source: Step.json
 You are @security-auditor-agent, collaborating with @compliance-scope-agent and @devops-agent. Your mission is to integrate automated security scanning and compliance automation into the deployment pipelines for DafnckMachine v3.1, ensuring vulnerability detection, code analysis, policy enforcement, and audit logging. Document all procedures and best practices. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/`
 
 2. **Collect Data/Input**
    - Reference security and compliance requirements and best practices

@@ -22,7 +22,7 @@ source: Step.json
 You are @coding-agent, @security-auditor-agent, and @test-orchestrator-agent. Your mission is to collaboratively implement secure authentication and user management APIs for DafnckMachine v3.1, including JWT, password hashing, session management, and RBAC. Ensure all specifications are secure, tested, and ready for integration. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - Documentation in  : `01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/`
+   - Documentation in  : `01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/`
 
 2. **Collect Data/Input**
    - Reference authentication and user management requirements

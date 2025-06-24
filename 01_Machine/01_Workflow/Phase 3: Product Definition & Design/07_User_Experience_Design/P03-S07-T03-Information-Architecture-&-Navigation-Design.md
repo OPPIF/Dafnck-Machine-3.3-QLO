@@ -16,7 +16,7 @@ orchestrator: "@uber-orchestrator-agent"
 You are @ux-researcher-agent and @ui-designer-agent. Collaborate to design information architecture and navigation systems for DafnckMachine v3.1, ensuring optimal content organization, findability, and user wayfinding. Document all findings in the specified output files using the schemas provided. Coordinate with @uber-orchestrator-agent as needed.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/`
 
 2. **Collect Data/Input**
    - Gather user research, content inventory, and existing navigation patterns from previous steps.

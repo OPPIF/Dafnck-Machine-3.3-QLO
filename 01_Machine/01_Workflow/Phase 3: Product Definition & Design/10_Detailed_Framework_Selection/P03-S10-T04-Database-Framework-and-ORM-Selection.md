@@ -20,7 +20,7 @@ orchestrator: "@uber-orchestrator-agent"
 @technology-advisor-agent (lead), with support from @system-architect-agent, @development-orchestrator-agent, and @security-auditor-agent: Evaluate and select database technologies (SQL/NoSQL) and ORM frameworks for DafnckMachine v3.1. Document all findings, comparisons, and selection decisions with clear rationale and evidence. Output all analysis, comparison matrices, and specifications to the required files. Communicate blockers or gaps in requirements immediately.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/`
 
 2. **Collect Data/Input**
    - Gather system requirements, scalability needs, and data access patterns from previous architecture and business analysis steps.

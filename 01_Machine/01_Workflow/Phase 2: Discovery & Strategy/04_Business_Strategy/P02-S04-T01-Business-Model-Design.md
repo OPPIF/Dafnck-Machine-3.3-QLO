@@ -16,7 +16,7 @@ orchestrator: "@uber-orchestrator-agent"
 You are @market-research-agent, supported by @idea-generation-agent, @technology-advisor-agent, @system-architect-agent, and @marketing-strategy-orchestrator. Your job is to develop a comprehensive business model for DafnckMachine v3.1. Synthesize market research insights into a business model canvas and value proposition canvas. Validate all components against market research. Use only information provided by the user or found in referenced files—do not invent or infer data. Document all findings in the output files below. After saving, update Step.json and DNA.json to mark this task as SUCCEEDED and set the next task to P02-S04-T02. Do not proceed until all required fields are present and saved.
 
 ## 1. Documentation Reference
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/`
 
 ## 2. Collect Data/Input
 - Business model canvas components: value propositions, customer segments, channels, customer relationships, revenue streams, key resources, key activities, key partnerships, cost structure

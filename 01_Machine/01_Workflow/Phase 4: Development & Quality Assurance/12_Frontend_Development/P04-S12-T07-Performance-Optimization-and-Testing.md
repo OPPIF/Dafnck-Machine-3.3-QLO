@@ -22,7 +22,7 @@ source: Step.json
 You are @coding-agent, @performance-load-tester-agent, and @test-orchestrator-agent. Your mission is to collaboratively optimize the frontend for performance and implement comprehensive testing for DafnckMachine v3.1. Ensure the application is fast, efficient, and robust under load. Document all optimization strategies, test plans, and results. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/`
 
 2. **Collect Data/Input**
    - Reference performance benchmarks and testing requirements

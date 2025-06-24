@@ -19,7 +19,7 @@ source: Step.json
 @coding-agent (lead), with support from @ui-designer-agent and @design-system-agent: Design and implement scalable component architecture and integrate the design system for DafnckMachine v3.1. Document all architecture, integration, and configuration steps with clear rationale and evidence. Output all component and design system files to the required locations. Communicate blockers or gaps in requirements immediately.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/`
 
 2. **Collect Data/Input**
    - Gather requirements for component architecture, design system, and styling from previous steps and team input.

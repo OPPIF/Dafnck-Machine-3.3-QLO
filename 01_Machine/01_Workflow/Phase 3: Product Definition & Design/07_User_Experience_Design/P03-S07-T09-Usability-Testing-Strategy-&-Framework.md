@@ -16,7 +16,7 @@ orchestrator: "@uber-orchestrator-agent"
 You are @ux-researcher-agent. Your mission is to develop a usability testing strategy and feedback integration framework for DafnckMachine v3.1, ensuring continuous user validation and design optimization. Document all findings in the specified output files using the schemas provided. Coordinate with @uber-orchestrator-agent as needed.
 
 1. **Documentation Reference**
-   - 01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/
+   - 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/
 
 2. **Collect Data/Input**
    - Gather testing protocols, user recruitment strategies, and feedback collection systems from previous steps.

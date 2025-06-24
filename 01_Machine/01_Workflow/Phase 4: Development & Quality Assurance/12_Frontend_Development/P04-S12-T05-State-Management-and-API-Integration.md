@@ -22,7 +22,7 @@ source: Step.json
 You are @coding-agent, @system-architect-agent, and @development-orchestrator-agent. Your mission is to collaboratively implement robust state management and API integration for DafnckMachine v3.1. Ensure scalable, efficient state handling, backend communication, and real-time data synchronization. Document all specifications and implementation details. Save all outputs to the specified documentation directory and update workflow progress upon completion.
 
 1. **Documentation Reference**
-   - Documentation in  `01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/`
+   - Documentation in  `01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/`
 
 2. **Collect Data/Input**
    - Reference architecture and API requirements
